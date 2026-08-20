@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2024"
 description = "nfc module driver for the Hackxpansion console."
 license = "MIT"
+documentation = "https://docs.rs/nfcxpansion"
+homepage = "https://github.com/Las-Vejas/nfcxpansion"
+repository = "https://github.com/Las-Vejas/nfcxpansion"
 
 [dependencies]
 xpanse-api = "0.2.3"
