@@ -80,8 +80,8 @@ pub struct NfcDriver;
 
 impl DriverMeta for NfcDriver {
     const ID: ModuleID = ModuleID {
-        md0: ModuleDetectResistor::R2K2,
-        md1: ModuleDetectResistor::R2K4,
+        md0: ModuleDetectResistor::R1K,
+        md1: ModuleDetectResistor::R16K,
     };
 }
 
